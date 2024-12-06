@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+#comm{/*Lien du haut devient rouge*/
+    color:rgb(187, 16, 16);
+}
+
+.titre{/*image du haut*/
+    position:relative;
+    text-align: center;
+    padding-top:30px;
+    font-family:'Akshar', sans-serif;
+    font-size:3.4em;
+    font-weight:400px;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
+}
+
+.Torii{
+    position:relative;
+    background-image: url(Torii.jpg);
+    background-size: cover;
+    background-position: center;
+    height:60vh;
+    background-size:105%;
+}
+
+.overlay{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+/*differentes boites de commentaire*/
+.Box{
+    margin:0% 21%;
+    padding:32px 0px;
+    border-bottom:1px solid rgb(204, 204, 204);
+}
+
+.Box .nom{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size:22px;
+    padding:20px 0px;
+}
+
+.Box p{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    font-weight: lighter;
+    margin:20px 0px 20px;
+    text-align:justify;
+}
+
+.Box img{
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+    box-shadow: 0px 3px 10px rgb(92, 92, 92);
+    margin-bottom:30px;
+}
+

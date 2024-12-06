@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylebase.css"/>
+    <link rel="stylesheet" href="stylecontact.css"/>
+    <script src="https://kit.fontawesome.com/f40bceab2b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <title>Fuji Travel - Contact</title>
+</head>
+<body>
+    <a id="top"></a>
+    <div class="header"><!--Navbar-->
+        <div onclick="location.href='index.html'" style="cursor:pointer" class="logo">
+            <image src="favicon.png" alt="Logo"/>
+            <h1 id="name">Fuji Travel</h1>
+        </div>
+        <ul class="pages">
+            <li> <a href="Destinations.html">Destinations</a> </li>
+            <li> <a href="Commentaires.html">Commentaires</a> </li>
+            <li> <a href="About.html">About</a> </li>
+            <li> <a id="cont" href="Contactez-nous.html">Contact</a> </li>
+        </ul>
+        <div onclick="location.href='Contactez-nous.html'" style="cursor:pointer" class="button">Book Now</div>
+    </div>
+    <div class="main"><!--Main-->
+        <div class="Tree">
+            <div class="overlay">
+                <h1 class="titre">Contactez-nous</h1>
+            </div>
+        </div>
+        <div class="intro">
+            <p>Nous sommes impatients de discuter d'un voyage au Japon avec vous.</p>
+            <p>Pour commencer à planifier ou à réfléchir à votre voyage au Japon, veuillez nous contacter ici (vous trouverez également notre téléphone et notre e-mail ci-dessous).</p>
+        </div>
+        <div class="form"><!--Form avec confirmation si la boite et vide ou si le courriel est mal entré-->
+            <form>
+                <label for="name">Nom*</label><br>
+                <input name="name" type="text" placeholder="John Doe" required><br><!--Entrer des textes-->
+
+                <label for="phone">Téléphone*</label><br>
+                <input name="phone" type="text" required><br>
+                
+                <label for="email">Courriel*</label><br>
+                <input name="email" type="email" placeholder="example@gmail.com" required><br>
+                
+                <label for="date">Date de voyage*</label><br>
+                <input name="date" type="text" placeholder="YYYY/MM/DD à YYYY/MM/DD" required><br>
+                
+                <label for="budget">Budget approximatif*</label><br><!--Un Menu dropdown-->
+                <select name="budget" required><br>
+                    <option selected disabled value="">Choisir une option</option>
+                    <option>700$-900$ par jour</option>
+                    <option>900$-1200$ par jour</option>
+                    <option>1200$-1500$ par jour</option>
+                </select><br>
+                
+                <label for="message">Autres détails</label><br><!--Grande boite de texte avec plusieurs lignes-->
+                <textarea name="message" placeholder="Si vous avez des détails important ou des destinations préférées"></textarea>
+            
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+
+        <div class="info"><!--Une carte de google maps-->
+            <h3>Où nous trouver</h3>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135542.75048605437!2d4.256257233848105!3d50.85766872054655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c48e5629eccf%3A0xd7421c4745b3c8a3!2sFuji%20Travel%20sprl!5e0!3m2!1sen!2sca!4v1654107316449!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contact">
+        <p>Telephone : <br> (416)-032-5221</p> 
+        <p>Adresse : <br>146 Chau.<br>Ixelles, Belgique</p>
+        </div>
+
+        <image class="FLogo" src="FLogo.png" alt="Fuji Travel"/>
+        <div class="social">
+        <a href="https://www.facebook.com/Fuji-Travel-196730870944468/?ref=page_internal" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/FujitravelJapon" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/fujitravelru/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/fuji-mountain-guides/about/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <br>
+        <p style="font-size: 15px; color:rgb(223, 47, 47)" >Support : fujitravel@gmail.com</p>
+        </div>
+        
+        <div onclick="location.href='#top'" style="cursor:pointer" class="up"><i class="fa-solid fa-arrow-up fa-2x"></i></div>
+    </div>
+</body>
+</html>

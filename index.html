@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f40bceab2b.js" crossorigin="anonymous"></script><!--Lien pour les fiches css, bootstrap et fontawesome-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="stylebase.css"/>
+    <title>Fuji Travel - Visitez le Japon</title>
+</head>
+<body>
+    <a id="top"></a> <!--Marqueur pour le bouton retour en haut de la page-->
+    <div class="header"><!--La barre de navigation-->
+        <div onclick="location.href='index.html'" style="cursor:pointer" class="logo"> <!--Le logo-->
+            <image src="favicon.png" alt="Logo"/>
+            <h1 id="name">Fuji Travel</h1>
+        </div>
+        <ul class="pages"> <!--Les liens-->
+            <li> <a href="Destinations.html">Destinations</a> </li>
+            <li> <a href="Commentaires.html">Commentaires</a> </li>
+            <li> <a href="About.html">About</a> </li>
+            <li> <a href="Contactez-nous.html">Contact</a> </li>
+        </ul>
+        <div onclick="location.href='Contactez-nous.html'" style="cursor:pointer" class="button">Book Now</div>
+    </div>
+    <div class="main"><!--Main-->
+        <div class="Fuji">
+            <div class="overlay">
+                <h1 class="titre">Préparez Votre Voyage Au Japon</h1> <!--Image titre-->
+            </div>
+        </div>
+        <div class="text"> <!--Texte intro-->
+            <p>Une expérience japonaise complètement unique. Le Japon offre un éventail incroyable d'expériences culturelles et culinaires, des plus sublimes aux plus exaltantes. Nous ne croyons pas qu'il existe une taille unique et concevons votre voyage juste pour vous.</p>
+        </div>
+        <div class="banner" id="destinations"> <!--Image pour la prochaine section-->
+            <div class="overlay">
+                <p class="sous">Destinations</p>
+              </div>
+          </div>
+        <div class="cards pb-4"> <!--Les Cards de Bootstrap pour les destinations-->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col"><!--Card 1-->
+              <div class="card text-center h-100">
+                <img src="Osakasm.jpg" class="img-fluid" alt="Osaka">
+                <div class="card-body">
+                  <h5 class="card-title">Osaka</h5>
+                  <p class="card-text">Osaka est une grande ville portuaire et un centre commercial sur l'île japonaise de Honshu. Il est connu pour son architecture moderne, sa vie nocturne et sa cuisine de rue copieuse.</p>
+                  <a href="Destinations.html #Osaka" class="btn btn-danger">Découvrir</a><!--Bouton pour aller la prochaine page à la bonne section-->
+                </div>
+              </div>
+            </div>
+            <div class="col"><!--Card 2-->
+              <div class="card text-center h-100">
+                <img src="Hokkaidosm.jpg" class="img-fluid" alt="Hokkaido">
+                <div class="card-body">
+                  <h5 class="card-title">Hokkaido</h5>
+                  <p class="card-text">Hokkaido, la plus septentrionale des îles principales du Japon, est connue pour ses volcans, ses sources chaudes naturelles (onsen) et ses domaines skiables.</p>
+                  <a href="Destinations.html #Hokkaido" class="btn btn-danger">Découvrir</a>
+                </div>
+              </div>
+            </div>
+            <div class="col"><!--Card 3-->
+              <div class="card text-center h-100">
+                <img src="Fujism.jpg" class="img-fluid" alt="Fuji">
+                <div class="card-body">
+                  <h5 class="card-title">Le mont Fuji</h5>
+                  <p class="card-text">Le mont Fuji au Japon est un volcan actif à environ 100 kilomètres au sud-ouest de Tokyo. C'est le plus haut sommet du pays, à 3 776 mètres. Lieu de pèlerinage depuis des siècles, il est considéré comme l'une des 3 montagnes sacrées du Japon, et les randonnées au sommet restent une activité populaire.</p>
+                  <a href="Destinations.html #Fuji" class="btn btn-danger">Découvrir</a>
+                </div>
+              </div>
+            </div>
+            <div class="col"><!--Card 4-->
+            <div class="card text-center h-100">
+                <img src="Fukuokasm.jpg" class="img-fluid" alt="Fukuoka">
+                <div class="card-body">
+                  <h5 class="card-title">Fukuoka</h5>
+                  <p class="card-text">Fukuoka, capitale de la préfecture de Fukuoka, se trouve sur la rive nord de l'île japonaise de Kyushu. Elle est connue pour ses temples anciens, ses plages et ses centres commerciaux modernes, dont Canal City.</p>
+                  <a href="Destinations.html #Fukuoka" class="btn btn-danger">Découvrir</a>
+                </div>
+              </div>
+              </div>
+              <div class="col"><!--Card 5-->
+              <div class="card text-center h-100">
+                <img src="Kyotosm.jpg" class="img-fluid" alt="Kyoto">
+                <div class="card-body">
+                  <h5 class="card-title">Kyoto</h5>
+                  <p class="card-text">Kyoto, autrefois capitale du Japon, est une ville de l'île de Honshu. Il est célèbre pour ses nombreux temples bouddhistes classiques, ainsi que pour ses jardins, ses palais impériaux, ses sanctuaires shintoïstes et ses maisons traditionnelles en bois.</p>
+                  <a href="Destinations.html #Kyoto" class="btn btn-danger">Découvrir</a>
+                </div>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="banner" id="commentaires"><!--Prochaine section-->
+              <div class="overlay">
+                  <p class="sous">Commentaires</p>
+                </div>
+            </div>
+            <div class="container comment pb-5"><!--L'introduction aux commentaires-->
+            <div class="row">
+              <div class="col-lg-4">
+                <img class="mb-2" src="Roberta.jpg"/><!--Commentaire 1-->
+                <h2 class="text-center">Roberta K., Ontario</h2>
+                <p class="text-center">Nous avons passé un moment incroyable au Japon. Malgré le temps super chaud et ridicule...</p>
+                <p class="text-center"><a class="btn btn-danger" href="Commentaires.html #rob">Lire plus &raquo;</a></p><!--Bouton pour aller la prochaine page à la bonne section-->
+              </div>
+              <div class="col-lg-4">
+                <img class="mb-2" src="Lisa.png"/><!--Commentaire 2-->
+                <h2 class="text-center">Lisa et Ruben, Floride</h2>
+                <p class="text-center">Nous avons passé un moment incroyable au Japon. Nous ne pouvons pas vous remercier assez...</p>
+                <p class="text-center"><a class="btn btn-danger" href="Commentaires.html #lisa">Lire plus &raquo;</a></p>
+              </div>
+              <div class="col-lg-4">
+                <img class="mb-2" src="John.png"/><!--Commentaire 3-->
+                <h2 class="text-center">John Given, Los Angeles</h2>
+                <p class="text-center">Merci encore d'avoir planifié un voyage aussi spécial et parfaitement organisé pour nous...</p>
+                <p class="text-center"><a class="btn btn-danger" href="Commentaires.html #john">Lire plus &raquo;</a></p>
+              </div>
+            </div>
+            </div>
+            <div class="banner" id="About"><!--Prochaine section-->
+                <div class="overlay">
+                    <p class="sous">Les voyages</p>
+                  </div>
+              </div>
+              <div class="container prix"><!--Bar de progrès pour les prix-->
+                  <h2>Classic - CAD $700-$900 par jour</h2>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p>Un voyage qui se situe dans la gamme de prix Classic comprend généralement un mélange réfléchi d'hébergements de milieu/haut de gamme, tous vos transports dans le pays (par train) et de merveilleux guides privés (plus beaucoup de temps à explorer en toute autonomie).</p>
+                  <h2>Premium - CAD $900-$1200 par jour</h2>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p>Un voyage qui s'inscrit dans la gamme de prix Premium comprend généralement un joli mélange d'hébergements haut de gamme/de luxe, tous vos transports dans le pays (en train et en véhicule privé, le cas échéant) et de merveilleux guides privés (plus autant de temps libre que vous aimeriez)</p>
+                  <h2>De Luxe - CAD $1200-$1500 par jour</h2>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p>Un voyage qui tombe dans la gamme de prix de luxe comprend généralement un hébergement haut de gamme, tous vos transports dans le pays (par train en première classe et véhicule privé, en cas échéant) et de merveilleux guides privés (plus autant de temps libre que vous aimeriez).</p>
+                  <div class="but">
+                  <a class="cont btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" href="Contactez-nous.html"> Contactez-nous</a>
+                  </div>  
+                </div>
+              
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script><!--Script pour le Bootstrap-->
+    </div>
+    <div class="footer"><!--Le footer de la page-->
+        <div class="contact">
+        <p>Telephone : <br> (416)-032-5221</p> <!--Les informations de contact-->
+        <p>Adresse : <br> 40 rue Main<br>Toronto, M5V3L9</p>
+        </div>
+        <image class="FLogo" src="FLogo.png" alt="Fuji Travel"/> <!--Autre logo-->
+        <div class="social">
+        <a href="https://www.facebook.com/Fuji-Travel-196730870944468/?ref=page_internal" target="_blank"><i class="fa-brands fa-facebook"></i></a> <!--Liens sociaux-->
+        <a href="https://twitter.com/FujitravelJapon" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/fujitravelru/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/fuji-mountain-guides/about/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <br>
+        <p style="font-size: 15px; color:rgb(223, 47, 47)" >Support : fujitravel@gmail.com</p><!--Email-->
+        </div>
+        <div onclick="location.href='#top'" style="cursor:pointer" class="up"><i class="fa-solid fa-arrow-up fa-2x"></i></div><!--Bouton pour aller en haut-->
+    </div>
+</body>
+</html>
