@@ -19,7 +19,7 @@
 
 .Torii{
     position:relative;
-    background-image: url(Torii.jpg);
+    background-image: url(../Images/Torii.jpg);
     background-size: cover;
     background-position: center;
     height:60vh;

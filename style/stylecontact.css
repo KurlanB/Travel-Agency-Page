@@ -19,7 +19,7 @@
 
 .Tree{
     position:relative;
-    background-image: url(Tree.jpg);
+    background-image: url(../Images/Tree.jpg);
     background-size: cover;
     background-position: center;
     height:70vh;

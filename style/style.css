@@ -5,7 +5,7 @@
 /*L'image du haut*/
 .Fuji{
     position:relative;
-    background-image: url(Fuji.jpg);
+    background-image: url(../Images/Fuji.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -79,15 +79,15 @@
 }
 
 #destinations{
-    background-image:url(Destinations.jpg);
+    background-image:url(../Images/Destinations.jpg);
 }
 
 #commentaires{
-    background-image:url(Comments.jpg);
+    background-image:url(../Images/Comments.jpg);
 }
 
 #About{
-    background-image:url(Sakura.jpg);
+    background-image:url(../Images/Sakura.jpg);
 }
 
 .sous{

@@ -19,7 +19,7 @@
 
 .Fuji-New{
     position:relative;
-    background-image: url(Mount-Fuji-New.jpeg);
+    background-image: url(../Images/Mount-Fuji-New.jpeg);
     background-size: cover;
     background-position:center 35%;
     height:60vh;
